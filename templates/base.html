@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="navbar">
+      <a href="/">Accueil</a>
+      | 
+      <a href="/animaux">Liste d'animaux</a>
+      |
+      <form action="/action_page.php">
+        <label for="gsearch">Search:</label>
+        <input type="search" id="gsearch" name="gsearch">
+        <input type="submit">
+      </form>
+    </div>
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
